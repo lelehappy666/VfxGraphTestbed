@@ -19,8 +19,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -231
     y: -224
-    width: 1587
-    height: 1516
+    width: 1594
+    height: 1502
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -701,6 +701,7 @@ MonoBehaviour:
   blendMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
+  excludeFromTAA: 0
   m_SubOutputs:
   - {fileID: 8926484042661614772}
   cullMode: 0
@@ -716,6 +717,7 @@ MonoBehaviour:
   frustumCulling: 0
   castShadows: 0
   useExposureWeight: 0
+  flipbookLayout: 0
   shaderGraph: {fileID: -5475051401550479605, guid: 81157c131f7267c48b397ae46b051bf4,
     type: 3}
   primitiveType: 1
@@ -1487,6 +1489,7 @@ MonoBehaviour:
   blendMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
+  excludeFromTAA: 0
   m_SubOutputs:
   - {fileID: 8926484042661614860}
   cullMode: 0
@@ -1502,6 +1505,7 @@ MonoBehaviour:
   frustumCulling: 0
   castShadows: 0
   useExposureWeight: 0
+  flipbookLayout: 0
   shaderGraph: {fileID: -5475051401550479605, guid: 5181ca31637ebdb408b7c6616a95e237,
     type: 3}
   tilingMode: 0
@@ -1723,7 +1727,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661614888}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614887}
   m_MasterData:
@@ -1732,7 +1736,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":0.0,"y":0.0,"z":0.0}}'
+      m_SerializableObject: '{"position":{"x":13.350000381469727,"y":0.14000000059604646,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: Position
@@ -1761,7 +1765,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614890}
   - {fileID: 8926484042661614891}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614887}
   m_MasterData:

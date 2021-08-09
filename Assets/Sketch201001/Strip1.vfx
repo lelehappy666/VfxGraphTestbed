@@ -70,6 +70,7 @@ MonoBehaviour:
   blendMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
+  excludeFromTAA: 0
   m_SubOutputs:
   - {fileID: 8926484042661614540}
   cullMode: 0
@@ -85,6 +86,7 @@ MonoBehaviour:
   frustumCulling: 0
   castShadows: 0
   useExposureWeight: 0
+  flipbookLayout: 0
   shaderGraph: {fileID: -5475051401550479605, guid: 81157c131f7267c48b397ae46b051bf4,
     type: 3}
   primitiveType: 1
@@ -184,9 +186,9 @@ MonoBehaviour:
   uiBounds:
     serializedVersion: 2
     x: -1117
-    y: -131
-    width: 4213
-    height: 1914
+    y: -130
+    width: 4351
+    height: 1808
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -718,7 +720,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614558}
   - {fileID: 8926484042661614559}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   repeat: 1
   spawnMode: 0
   delayMode: 0
@@ -1216,7 +1218,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615009}
   - {fileID: 8926484042661614964}
   - {fileID: 8926484042661615004}
-  m_UIPosition: {x: 2670, y: 1294}
+  m_UIPosition: {x: 2809, y: 1132}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -1233,6 +1235,7 @@ MonoBehaviour:
   blendMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
+  excludeFromTAA: 0
   m_SubOutputs:
   - {fileID: 8926484042661614730}
   cullMode: 0
@@ -1248,6 +1251,7 @@ MonoBehaviour:
   frustumCulling: 0
   castShadows: 0
   useExposureWeight: 0
+  flipbookLayout: 0
   shaderGraph: {fileID: 0}
   tilingMode: 0
   swapUV: 0
@@ -1664,9 +1668,9 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
   m_Direction: 1
   m_LinkedSlots:
-  - {fileID: 8926484042661614765}
   - {fileID: 8926484042661614782}
   - {fileID: 8926484042661614786}
+  - {fileID: 8926484042661614765}
 --- !u!114 &8926484042661614763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1718,7 +1722,7 @@ MonoBehaviour:
   m_Children: []
   m_UIPosition: {x: -462, y: 780}
   m_UICollapsed: 0
-  m_UISuperCollapsed: 1
+  m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661614765}
   m_OutputSlots:
@@ -1751,7 +1755,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0
+      m_SerializableObject: -2.46
     m_Space: 2147483647
   m_Property:
     name: x
@@ -3641,6 +3645,7 @@ MonoBehaviour:
   blendMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
+  excludeFromTAA: 0
   m_SubOutputs:
   - {fileID: 8926484042661614850}
   cullMode: 0
@@ -3656,6 +3661,7 @@ MonoBehaviour:
   frustumCulling: 0
   castShadows: 0
   useExposureWeight: 0
+  flipbookLayout: 0
   shaderGraph: {fileID: -5475051401550479605, guid: 81157c131f7267c48b397ae46b051bf4,
     type: 3}
   primitiveType: 1
@@ -4404,7 +4410,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614873}
   - {fileID: 8926484042661614874}
   - {fileID: 8926484042661614889}
-  m_UIPosition: {x: 2672, y: 601}
+  m_UIPosition: {x: 2810, y: 439}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -4883,7 +4889,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614936}
-  m_UIPosition: {x: 2671, y: 1074}
+  m_UIPosition: {x: 2810, y: 912}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -4918,7 +4924,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2669, y: 374}
+  m_UIPosition: {x: 2807, y: 212}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -4965,8 +4971,7 @@ MonoBehaviour:
       m_SerializableType: UnityEditor.VFX.GPUEvent, Unity.VisualEffectGraph.Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Direction: 0
-  m_LinkedSlots:
-  - {fileID: 8926484042661614991}
+  m_LinkedSlots: []
 --- !u!114 &8926484042661614884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4982,7 +4987,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2388, y: 954}
+  m_UIPosition: {x: 2526, y: 792}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots: []
@@ -5143,7 +5148,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614861}
   m_Children: []
-  m_UIPosition: {x: 0, y: 161}
+  m_UIPosition: {x: 0, y: 162}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -5341,7 +5346,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2027, y: 1155}
+  m_UIPosition: {x: 2166, y: 993}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots: []
@@ -5502,7 +5507,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2350, y: 1122}
+  m_UIPosition: {x: 2489, y: 960}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -6006,7 +6011,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614727}
   m_Children: []
-  m_UIPosition: {x: 0, y: 2}
+  m_UIPosition: {x: 0, y: 76}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -6495,7 +6500,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614988}
       inputSlot: {fileID: 8926484042661614976}
-    position: {x: 2201, y: 1195}
+    position: {x: 2339.2, y: 1032.7999}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614988
@@ -6626,8 +6631,7 @@ MonoBehaviour:
       m_SerializableType: UnityEditor.VFX.GPUEvent, Unity.VisualEffectGraph.Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Direction: 1
-  m_LinkedSlots:
-  - {fileID: 8926484042661614879}
+  m_LinkedSlots: []
 --- !u!114 &8926484042661614992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6973,7 +6977,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614727}
   m_Children: []
-  m_UIPosition: {x: 152.32501, y: -110.13629}
+  m_UIPosition: {x: 0, y: 173}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -7099,7 +7103,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614727}
   m_Children: []
-  m_UIPosition: {x: 0, y: 0}
+  m_UIPosition: {x: 0, y: 2}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []

@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "com.unity.render-pipelines.high-definition": "11.0.0",
-    "com.unity.timeline": "1.5.2",
+    "com.unity.timeline": "1.5.6",
     "jp.keijiro.kino.post-processing": "2.1.15",
     "jp.keijiro.klak.motion": "1.0.1",
     "jp.keijiro.klak.timeline.procedural-motion": "1.0.1",
